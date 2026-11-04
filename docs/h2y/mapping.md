@@ -5,7 +5,11 @@ Linedef layout should be identical to Doom 2/Boom's layout, save for the followi
 * Translucent linedefs should rely on the default tranmap
 * Doom 2/Boom specials take precedence over Heretic speicals
 * Friction modifier linedefs should be able to work with untagged sectors set to Special 15
-* Linedef Special 255 doesn't need to be implemented, and can instead be handled by linedef 254
+* 178/198: S1/SR Activate Script (use linedef tag to denote script number)
+* 224/225: W1/WR Activate Script (use linedef tag to denote script number)
+* 250-253: [S1|SR|W1|WR] Always Activate Script (use linedef tag to denote script number)
+* 254: Scroll Wall exactly with Floor/Ceiling
+* 255: Scroll Wall Opposite to Floor/Ceiling
 * MBF's 271 and 272 should also be included
 * Don't implement point force pullers/pushers? (TODO: See if anyone actually uses them)
 * Boom's extra linedef bitflags can remain as-is? (TODO: Could be different from Doom's?)
