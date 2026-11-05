@@ -1,6 +1,7 @@
 ## HHX+: Heretic Extended Dehacked Plus
 **BIG, MASSIVE TODO:** Is any of this crap actually sane and feasible?
-Actor functions, codepointers, and most other stuff I don't mention here can (most likely) follow MBF21 standards.
+
+(Actor functions, codepointers, and most other stuff I don't mention here can (most likely) follow MBF21 standards.)
 
 ### General Feature List Proposal
 * Thing 1024 - 1077: Generalized Actor Slot
